@@ -20,19 +20,19 @@
 </properties>
 
 <scm>
-	<connection>scm:git:git@github.com:kmayer10/accenture-devops-desktop.git</connection>
-	<developerConnection>scm:git:git@github.com:kmayer10/accenture-devops-desktop.git</developerConnection>
-	<url>git@github.com:kmayer10/accenture-devops-desktop.git</url>	
+	<connection>scm:git:git@github.com:PurvaMishra/accenture-devops-desktop.git</connection>
+	<developerConnection>scm:git:git@github.com:PurvaMishra/accenture-devops-desktop.git</developerConnection>
+	<url>git@github.com:PurvaMishra/accenture-devops-desktop.git</url>	
 </scm>
 
 <distributionManagement>
         <repository>
                 <id>nexus</id>
-                <url>http://84.39.39.130:8081/nexus/content/repositories/releases/</url>
+                <url>http://84.39.40.102:8081/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
                 <id>nexus</id>
-                <url>http://84.39.39.130:8081/nexus/content/repositories/snapshots</url>
+                <url>http://84.39.40.102:8081/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
 </distributionManagement>
 
